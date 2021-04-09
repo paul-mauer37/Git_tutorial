@@ -50,6 +50,7 @@ commit 목록(log) 출력
 * `git remote add [이름] [주소]` : 원격 저장소 정보 추가
   * 이름: 관례/관습적(Convention)으로 **origin** (원본) 
   * 주소: Github에서 복사 가능
+* `git remote remove [이름]` : 원격 저장소 삭제
 
 
 
@@ -75,7 +76,6 @@ To heeps://github.com/hphk-john/git_review.git
 * `git push --set-upstream origin master` : origin master를 기본으로 설정
   * 설정 이후에는 git push만 해도 됨.
 
-* `git pull origin master` : 내용물 받아오기
 
 
 
@@ -87,9 +87,30 @@ To heeps://github.com/hphk-john/git_review.git
 
 
 
+### 7. `git pull [이름] [브랜치]`
+
+* `git pull origin master` : 내용물 받아오기
 
 
 
+___
+
+
+
+## Git branch
+
+* `git branch` : 모든 branch 출력
+  * `git branch [브랜치명]` : 새로운 branch 생성
+  * `git branch -d [브랜치명]`: Local branch 제거
+  * `git push -d [원경저장소명] [브랜치명]` : Remote branch 제거 
+
+
+
+* `git checkout [브랜치명]` : branch 이동
+
+
+
+* `git merge [브랜치명] (목적)` : 현재 branch(s)에서 대상 branch(O)를 병합
 
 
 
