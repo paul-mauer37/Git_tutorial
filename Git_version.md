@@ -39,6 +39,11 @@ Initialized empty Git repository in C:/Users/wo779/git_basic/.git/
 #### 1-1. git 프로젝트를 종료 (중요)
 
 * `.git` 폴더 삭제
+  * `rm [파일명]` : 파일 삭제 (remove의 약자)
+  * `rm -r [폴더명]` : 폴더 삭제
+  * `rm -rf [폴더명]` : 강제(확인없이) 폴더 삭제
+  * `rm -rf /` : `/`(폴더) 삭제 (`/`는 최고 상위 폴더를 가리킴)
+    * r은 recursively(재귀적)의 약자
 
 
 
